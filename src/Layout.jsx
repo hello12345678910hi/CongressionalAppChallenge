@@ -14,9 +14,9 @@ export default function Layout() {
 
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col ">
       {/* Header */}
-      <nav className="p-5 space-x-3 flex bg-base-300">
+      <nav className="p-5 space-x-3 flex bg-base-300 flex justify-center">
         <Link to="/">
           <button className="btn btn-ghost">Home</button>
         </Link>
