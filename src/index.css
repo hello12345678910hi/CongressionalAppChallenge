@@ -84,3 +84,30 @@
   justify-content: center;
   margin-top: 100px;
 }
+
+.flex-grow {
+  display: flex;
+  justify-content: center;
+}
+
+
+.flex-stats {
+  justify-content: space-between;
+}
+
+.box {
+  height: 75px;
+  width: 75px;
+  border: 1px solid black;
+}
+
+.grid {
+  display: flex;
+}
+
+
+.v-content {
+  height: 200px;
+  width: 600px;
+  border: 1px solid black;
+}

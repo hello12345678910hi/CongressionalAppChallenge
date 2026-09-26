@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import { Link, Route, Routes } from 'react-router'
 import HomePage from './pages/home'
+import ProfilePage from './pages/profile'
+import MessagesPage from './pages/messages'
 import TemplatePage from './pages/template'
-import TemplateWithParamPage from './pages/template-with-param'
 
 const ROUTES = [
   { path: "/", element: <HomePage /> },
-  { path: "/template", element: <TemplatePage /> },
-  { path: "/template/:v", element: <TemplateWithParamPage /> },
+  { path: "/profile", element: <ProfilePage /> },
+  { path: "/messages", element: <MessagesPage /> },
 ]
 
 export default function Layout() {
@@ -20,11 +21,11 @@ export default function Layout() {
         <Link to="/">
           <button className="btn btn-ghost">Home</button>
         </Link>
-        <Link to="/template">
-          <button className="btn btn-ghost">Template</button>
+        <Link to="/profile">
+          <button className="btn btn-ghost">Profile</button>
         </Link>
-        <Link to="/template/test">
-          <button className="btn btn-ghost">Template Parameter</button>
+        <Link to="/messages">
+          <button className="btn btn-ghost">Messages</button>
         </Link>
       </nav>
       {/* Main */}
