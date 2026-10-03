@@ -96,9 +96,9 @@
 }
 
 .box {
-  height: 75px;
-  width: 75px;
-  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+  border: 1px solid dodgerblue;
 }
 
 .grid {
@@ -110,4 +110,56 @@
   height: 200px;
   width: 600px;
   border: 1px solid black;
+}
+
+.container {
+  height: 55px;
+  width: 600px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.blank-pfp {
+  margin-top: 30px;
+  height: 125px;
+  width: 600px;
+}
+
+.flex-blank-pfp {
+  display: flex;
+  justify-content: center;
+}
+
+.email-bar {
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 20px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.user-bar {
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 20px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.password-bar {
+  margin-top: 30px;
+  margin-left: 50px;
+  height: 20px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.Login {
+  margin-top: 50px;
+  margin-left: 250px;
+  height: 35px;
+  width: 100px;
 }

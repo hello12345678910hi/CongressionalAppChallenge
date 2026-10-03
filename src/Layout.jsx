@@ -3,12 +3,16 @@ import { Link, Route, Routes } from 'react-router'
 import HomePage from './pages/home'
 import ProfilePage from './pages/profile'
 import MessagesPage from './pages/messages'
+import SignUp from './pages/signup'
+import LogIn from './pages/login'
 import TemplatePage from './pages/template'
 
 const ROUTES = [
   { path: "/", element: <HomePage /> },
   { path: "/profile", element: <ProfilePage /> },
   { path: "/messages", element: <MessagesPage /> },
+  {path: "/signup", element: <SignUp/>},
+  {path: "/login", element: <LogIn/>}
 ]
 
 export default function Layout() {
@@ -27,6 +31,13 @@ export default function Layout() {
         <Link to="/messages">
           <button className="btn btn-ghost">Messages</button>
         </Link>
+        <Link to="/login">
+          <button className="btn btn-ghost">Login</button>
+        </Link>
+         <Link to="/signup">
+          <button className="btn btn-ghost">SignUp</button>
+        </Link>
+
       </nav>
       {/* Main */}
       <Routes>
