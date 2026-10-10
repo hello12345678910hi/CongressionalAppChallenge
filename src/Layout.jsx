@@ -5,14 +5,15 @@ import ProfilePage from './pages/profile'
 import MessagesPage from './pages/messages'
 import SignUp from './pages/signup'
 import LogIn from './pages/login'
-import TemplatePage from './pages/template'
+import Settings from './pages/settings' 
 
 const ROUTES = [
   { path: "/", element: <HomePage /> },
   { path: "/profile", element: <ProfilePage /> },
   { path: "/messages", element: <MessagesPage /> },
   {path: "/signup", element: <SignUp/>},
-  {path: "/login", element: <LogIn/>}
+  {path: "/login", element: <LogIn/>},
+  {path: "/settings", element: <Settings/>}
 ]
 
 export default function Layout() {
@@ -36,6 +37,9 @@ export default function Layout() {
         </Link>
          <Link to="/signup">
           <button className="btn btn-ghost">SignUp</button>
+        </Link>
+        <Link to="/settings">
+          <button className="btn btn-ghost">Settings</button>
         </Link>
 
       </nav>

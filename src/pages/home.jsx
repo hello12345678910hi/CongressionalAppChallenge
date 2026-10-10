@@ -5,8 +5,6 @@ export default function HomePage() {
 
     return (
         <div className="flex w-auto flex-col items-center">
-           
-
             <div className="flex-container">
                  <h1>Welcome, John!</h1>
                 <img src="https://th.bing.com/th/id/OIP.gUbYpAArMqKXmoJgnWyYHgHaHa?w=100&h=100&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"></img>
