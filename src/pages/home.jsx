@@ -10,7 +10,7 @@ export default function HomePage() {
                 <img src="https://th.bing.com/th/id/OIP.gUbYpAArMqKXmoJgnWyYHgHaHa?w=100&h=100&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"></img>
                 <div className="user-post">
                     <img className="w-auto h-20 pt-1" src="https://th.bing.com/th/id/OIP.gUbYpAArMqKXmoJgnWyYHgHaHa?w=100&h=100&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"></img>
-                    <div>
+                    <div contentEditable="true">
                         <h2>Post: 1st day of school</h2>
                         <h2>Submit Post ✉️ </h2>
                     </div>

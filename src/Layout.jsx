@@ -35,12 +35,7 @@ export default function Layout() {
         <Link to="/login">
           <button className="btn btn-ghost">Login</button>
         </Link>
-         <Link to="/signup">
-          <button className="btn btn-ghost">SignUp</button>
-        </Link>
-        <Link to="/settings">
-          <button className="btn btn-ghost">Settings</button>
-        </Link>
+         
 
       </nav>
       {/* Main */}

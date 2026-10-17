@@ -11,10 +11,10 @@ export default function LogIn() {
             <div class="blank-pfp flex-blank-pfp">
                 <img src="https://th.bing.com/th/id/OIP.ghDeAxQENeJRnpp7tlZyCwHaHa?w=100&h=100&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"></img>
             </div>
-            <div class="user-bar">Username</div>
-            <div class="password-bar">Password</div>
+            <div className="user-bar" contentEditable="true">Username</div>
+            <div className="password-bar" contentEditable="true">Password</div>
             <button className="border border-amber-950 m-4 p-2">LOGIN</button>
-            <h4 class="idk">Don't have an account? Sign up here</h4>
+            <h4 className="idk">Don't have an account? Sign up here</h4>
     </div>
         
     </div>
